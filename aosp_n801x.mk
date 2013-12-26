@@ -15,6 +15,6 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_n801x.mk \
-    $(LOCAL_DIR)/omni_n801x.mk
+$(call inherit-product, device/samsung/n801x/full_n801x.mk)
+
+PRODUCT_NAME := aosp_n801x

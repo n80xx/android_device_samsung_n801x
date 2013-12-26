@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2013 OmniROM Project
  * Copyright (C) 2013 The Android Open Source Project
  * Copyright (C) 2013 The CyanogenMod Project <http://www.cyanogenmod.org>
  *

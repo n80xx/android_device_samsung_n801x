@@ -1,4 +1,5 @@
 #
+# Copyright (C) 2013 OmniROM Project
 # Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,3 +27,20 @@ TARGET_OTA_ASSERT_DEVICE := p4notewifi,n8010,GT-N8010,n8013,GT-N8013,n801x,GT-N8
 
 # bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/n801x/bluetooth
+
+# Selinux
+BOARD_SEPOLICY_DIRS := \
+    device/samsung/n801x/selinux
+
+BOARD_SEPOLICY_UNION := \
+    device.te \
+    domain.te \
+    file.te \
+    file_contexts \
+    init.te \
+    mediaserver.te \
+    rild.te \
+    system.te \
+    ueventd.te \
+    wpa_supplicant.te
+
